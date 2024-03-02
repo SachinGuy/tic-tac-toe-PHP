@@ -1,5 +1,5 @@
 <?php
-require_once("./templates/header.php");
+require_once "./templates/header.php";
 ?>
 
 <form action="register-players.php" method="post">
@@ -13,7 +13,7 @@ require_once("./templates/header.php");
         </div>
 
         <div class="player-name">
-            <label for="player-o">First Player (o)</label>
+            <label for="player-o">Second Player (o)</label>
             <input type="text" name="player-o" id="player-o" required>
         </div>
 
